@@ -8,7 +8,7 @@
 
                     <div class="individual-post">
                         <div class="featured-image">
-                            <?php the_post_thumbnail('thumbnail'); ?>
+                            <?php the_post_thumbnail('medium'); ?>
                             
                         </div>
                         <div class="text-container">

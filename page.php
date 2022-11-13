@@ -13,11 +13,11 @@
 
             <div class="hero-container">
                 <div class="hero-image">
-                    <?php the_post_thumbnail('full'); ?>
+                    <?php the_post_thumbnail('large'); ?>
                 </div>
 
                 <div class="hero-title container">
-                    <?php the_title(); ?>
+                 <h2>   <?php the_title(); ?> </h2>
                 </div>
             </div>
 
@@ -28,9 +28,7 @@
                             <?php the_content(); ?>
                         </section>
                     </main>
-                    <aside class="col-md-3">
-                        <?php get_sidebar(); ?>
-                    </aside>
+                    
 
 
                 </div>
