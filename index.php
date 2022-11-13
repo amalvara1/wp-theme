@@ -13,7 +13,7 @@
                         </div>
                         <div class="text-container">
                             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                            <p class="excerpt"><?php get_the_excerpt(); ?></p>
+                            <p class="excerpt"><?php echo get_the_excerpt(); ?></p>
                         </div>
 
                     </div>

@@ -18,7 +18,7 @@
                         </div>
                         <div class="text-container">
                             <h2><?php the_title(); ?></h2>
-                            <p class="body-content"><?php the_content(); ?></p>
+                            <p class="body-content"><?php echo the_content(); ?></p>
                         </div>
 
                     </div>
@@ -35,7 +35,7 @@
                 'posts-per-page' =>  3,
                 'order'         => 'DESC',
                 'orderby'       =>  'rand',
-                'category_name' =>  'art'
+                'category_name' =>  'products'
 
             );
 
@@ -52,7 +52,7 @@
                         </div>
                         <div class="text-container">
                             <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-                            <p class="excerpt"><?php get_the_excerpt(); ?></p>
+                            <p class="excerpt"><?php echo get_the_excerpt(); ?></p>
                         </div>
 
                     </div>

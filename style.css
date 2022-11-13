@@ -53,3 +53,10 @@ Use it to make something cool, have fun, and share what you've learned.
   .contant_box_404 {
     margin-top:-50px;
   }
+/*==================================
+  Header Styling
+=====================================*/
+
+header {
+  background-color: #4B5349;
+}
