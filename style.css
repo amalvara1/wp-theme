@@ -57,6 +57,40 @@ Use it to make something cool, have fun, and share what you've learned.
   Header Styling
 =====================================*/
 
-header {
-  background-color: #4B5349;
-}
+  header, footer {
+    background-color: #4B5349;
+  }
+
+  .logo {
+    width: 100px;
+    height: 100px
+      
+      
+  }
+
+  .col-lg-6.navigation {
+      display: inline-block;
+  }
+
+  ul, a {
+      text-decoration: none;
+      list-style: none;
+      color:#F0EDE7;
+      display: block;
+      
+  }
+
+  body{
+    background-color: #C6CDC4;
+  }
+
+  .individual-post {
+      display: inline-block;
+      padding: 2.5em;
+  }
+
+  .hero-container,.container {
+      width: 70%;
+      margin: auto;
+      position: center;
+  }
