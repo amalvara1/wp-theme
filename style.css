@@ -59,6 +59,11 @@ Use it to make something cool, have fun, and share what you've learned.
 
   header, footer {
     background-color: #4B5349;
+    height: 11em;
+  }
+
+  .logo{
+    margin: 1em;
   }
 
   .col-lg-6.navigation {
@@ -69,15 +74,21 @@ Use it to make something cool, have fun, and share what you've learned.
       text-decoration: none;
       list-style: none;
       color:#F0EDE7;
-      display: block;
-      
+      display: block; 
   }
+
+  a {
+    margin: .5em;
+}
 
   ul#menu-main-menu {
     float: right;
-    display: block;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    font-size: 1.5em;
+  }
+  
+  a:hover {
+    color: #4B5349;
   }
 
   .individual-post {
@@ -90,3 +101,5 @@ Use it to make something cool, have fun, and share what you've learned.
       margin: auto;
       position: center;
   }
+
+  

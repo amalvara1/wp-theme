@@ -10,10 +10,6 @@
                         <div class="featured-image">
                             <?php the_post_thumbnail('large'); ?>
                             
-                            <?php
-                                //Display Author and publish Date
-                                post_data();
-                            ?>
                                  
                         </div>
                         <div class="text-container">
@@ -22,8 +18,8 @@
                         </div>
 
                     </div>
-                <?php
-                }
+                
+            <?php }
             }
         ?>
     </main>
