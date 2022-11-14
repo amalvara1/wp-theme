@@ -15,11 +15,9 @@ function custom_theme_scripts(){
     /*wp_enqueue_script('bootstrap-js', get_stylesheet_directory_uri() . '/js/bootstrap.min.js');
     wp_enqueue_script('custom-js', get_stylesheet_directory_uri(). '/js/scripts.js'); */
 
-
-
 }
 
-//add_action('wp_enqueue_scripts', 'custom_theme_scripts');
+add_action('wp_enqueue_scripts', 'custom_theme_scripts');
 
 /*=================================
 Custom header Images

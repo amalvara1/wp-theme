@@ -61,13 +61,6 @@ Use it to make something cool, have fun, and share what you've learned.
     background-color: #4B5349;
   }
 
-  .logo {
-    width: 100px;
-    height: 100px
-      
-      
-  }
-
   .col-lg-6.navigation {
       display: inline-block;
   }
@@ -80,8 +73,11 @@ Use it to make something cool, have fun, and share what you've learned.
       
   }
 
-  body{
-    background-color: #C6CDC4;
+  ul#menu-main-menu {
+    float: right;
+    display: block;
+    margin: 0;
+    padding: 0;
   }
 
   .individual-post {
