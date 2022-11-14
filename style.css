@@ -102,4 +102,16 @@ Use it to make something cool, have fun, and share what you've learned.
       position: center;
   }
 
-  
+  .text-container {
+    width: 40%;
+    margin: 2em;
+    display: inline-block;
+}
+
+.single-post {
+  display: flex;
+}
+
+.featured-image {
+  margin: 6em;
+}

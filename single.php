@@ -8,7 +8,7 @@
 
                     <div class="single-post">
                         <div class="featured-image">
-                            <?php the_post_thumbnail('large'); ?>
+                            <?php the_post_thumbnail('full'); ?>
                             
                                  
                         </div>
